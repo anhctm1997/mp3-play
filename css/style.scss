@@ -1,0 +1,20 @@
+@import "./variables";
+@import "./mixins";
+
+.play-mp3{
+    background-color: $primary-color;
+    width: 550px;
+    height: 550px;
+    color: $secondary-color;
+    margin: 0 auto;
+    @include boxer-center(flex);
+    .mp3-title{
+        top: 0%;
+    }
+    &-image{
+        width: 340px;
+        height: 340px;
+        background-color: $secondary-color;
+        border-radius: 50%;
+    }   
+}

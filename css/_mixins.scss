@@ -1,0 +1,10 @@
+@mixin boxer-center($style) {
+    @if ($style == "flex") {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    border-radius: 34px;
+}
