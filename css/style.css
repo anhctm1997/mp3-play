@@ -1,0 +1,23 @@
+.play-mp3 {
+  background-color: #3233BF;
+  width: 550px;
+  height: 550px;
+  color: #D8A1CC;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 34px;
+}
+.play-mp3 .mp3-title {
+  top: 0%;
+}
+.play-mp3-image {
+  width: 340px;
+  height: 340px;
+  background-color: #D8A1CC;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
